@@ -1,0 +1,302 @@
+.checkPoint,.alert_category,.alert_password,.alert_username,.alert_title,.alert_content,.alert_selltitle,.alert_sellprice,.alert_selllocation,.alert_selldescription,.alert_link,.alert_image,.alert_mieuta,.alert_tacgia{display: none;}
+.switchAccount a.dropdown-toggle{color:#fff !important; font-size: 15px;}
+#toast-container>div{margin-top:15% !important;}
+.title_text {font-size: 15px; color: #000;}
+.fbp {width: 25px; height: 25px;float: left; margin: 2px 3px;border-radius: 5px;border: 1px solid #ddd;cursor: pointer;background-image: url(../images/fbpresets.png);}
+.fb_presets li{list-style: none;}
+.fb_presets {
+    display: inline-block;
+}
+.fb_presets ul {padding:0px;margin:0px;}
+.fbp-1903718606535395 {background-color: rgba(226,1,59,1.00);}
+.fbp-1887542564794370 {background-color: rgb(183, 55, 73);}
+.fbp-1881421442117417 {background-color: #111;}
+.fbp-324777221272701 {background-image: linear-gradient(45deg, #00f4ff 0%, #1137ad 100%);}
+.fbp-1365883126823705 {background-color: #0073ff;}
+.fbp-814910605325191 {
+    background-image: linear-gradient(45deg, #f8f023 0%, #05ae35 100%);
+}
+.fbp-362672934129151 {
+    background-color: #ff3d00;
+}
+.fbp-249307305544279 {
+    background-image: linear-gradient(45deg, #ff0047 0%, #2c34c7 100%);
+}
+.fbp-1288458721262047 {
+    background-color: rgba(95,102,115,1.00);
+}
+.fbp-357109954713249 {
+    background-position: center -96px;
+}
+.fbp-127281214508877 {
+    background-position: center -128px;
+}
+.fbp-1943057695973225 {
+    background-position: center -160px;
+}
+.fbp-112865389425474 {
+    background-position: center -192px;
+}
+.fbp-126877221295325 {
+    background-position: center -224px;
+}
+.fbp-623911921148129 {
+    background-position: center -256px;
+}
+.fbp-1705020913127345 {
+    background-position: center -288px;
+}
+.fbp-1200070923437550 {
+    background-position: center -320px;
+}
+.fbp-816008591908985 {
+    background-position: center -70px;
+}
+.fbp-425789167806189 {
+    background-position: center -40px;
+}
+.fbp-528808880819990 {
+    background-position: 0px -352px;
+}
+.fbp-308229619684986 {
+    background-position: center -384px;
+}
+.fbp-382422138883041 {
+    background-position: center -425px;
+}
+.fbp-396343990807392 {
+    background-position: 0px -455px;
+}
+.fbp-1974886472751579 {
+    background-position: 0px -487px;
+}
+.previewPoster img {
+    float: left;
+    margin: 0px 10px 5px 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.postPreviewDetails {
+    margin: 5px 0px;
+    display: block;
+    color: #9197a3;
+    font-size: 12px;
+}
+.post .message {
+    margin: 15px 0px;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    word-wrap: break-word;
+}
+.defaultMessage {
+    background-color: #eee;
+    height: 10px;
+    width: 60%;
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+}
+.fbpb-127281214508877{background-image: url("../images/fbpresets/127281214508877.jpg");}
+.fbpb-1943057695973225{background-image: url("../images/fbpresets/1943057695973225.jpg");}
+.fbpb-112865389425474{background-image: url("../images/fbpresets/112865389425474.jpg");}
+.fbpb-126877221295325{background-image: url("../images/fbpresets/126877221295325.jpg");}
+.fbpb-623911921148129{background-image: url("../images/fbpresets/623911921148129.jpg");}
+.fbpb-1705020913127345{background-image: url("../images/fbpresets/1705020913127345.jpg");}
+.fbpb-1200070923437550{background-image: url("../images/fbpresets/1200070923437550.jpg");}
+.fbpb-357109954713249{background-image: url("../images/fbpresets/357109954713249.jpg");}
+.fbpb-816008591908985{background-image: url("../images/fbpresets/816008591908985.jpg");}
+.fbpb-425789167806189{background-image: url("../images/fbpresets/425789167806189.jpg");}
+.fbpb-528808880819990{background-image: url("../images/fbpresets/528808880819990.jpg");}
+.fbpb-308229619684986{background-image: url("../images/fbpresets/308229619684986.jpg");}
+.fbpb-382422138883041{background-image: url("../images/fbpresets/382422138883041.jpg");}
+.fbpb-396343990807392{background-image: url("../images/fbpresets/396343990807392.jpg");}
+.fbpb-1974886472751579{background-image: url("../images/fbpresets/1974886472751579.jpg");}
+.fbpb {
+    background-position: center;
+    background-size: 100%;
+    border: none !important;
+}
+.fbpb .emojionearea-editor, .postPreview .fbpb {
+    text-align: center;
+    color: white !important;
+    font-size: 21px;
+    height: 270px;
+    padding: 20% 20px 0px 20px;
+    line-height: 20px;
+    overflow-y: auto;
+}
+.fbp-1903718606535395{background-color: rgba(226,1,59,1.00);}
+	.fbp-1288458721262047{background-color: rgba(95,102,115,1.00);}
+
+
+	.fbpb-1288458721262047{background-color: rgba(95,102,115,1.00) !important;}
+
+
+	.fbpb-1887542564794370{background-color: rgb(183, 55, 73) !important;}
+	.fbpb-1881421442117417{background-color: #111 !important;}
+	.fbpb-324777221272701{background-image: linear-gradient(45deg, #00f4ff 0%, #1137ad 100%) !important;}
+	.fbpb-1365883126823705{background-color: #0073ff !important;}
+	.fbpb-814910605325191{background-image: linear-gradient(45deg, #f8f023 0%, #05ae35 100%) !important;}
+	.fbpb-249307305544279{background-image: linear-gradient(45deg, #ff0047 0%, #2c34c7 100%) !important;}
+
+	.fbpb-362672934129151{background-color: #ff3d00 !important;}
+    .fbpb-1903718606535395{background-color: rgba(226,1,59,1.00) !important;}
+    .sell_title_prev {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .sell_price_prev {
+        color: #71a830;
+    }
+    .sell_localtion_prev {
+        color: #90949c;
+        margin-bottom: 8px;
+    }
+    .postPreview .pit2 .image_1, .postPreview .pit3 .image_1, .postPreview .pit4 .image_1, .postPreview .pit2 .image_2 {
+        height: 250px;
+        overflow: hidden;
+    }
+    .postPreview .image_1, .postPreview .image_2, .postPreview .image_3, .postPreview .image_4 {
+        background: #eeeeee;
+        border: 1px solid #fff;
+    }
+    .previewLinkType .previewLink {
+        width: 100%;
+        height: 100%;
+        background: #eeeeee;
+        clear: both;
+        border: 1px solid #ededed;
+        max-height: 400px;
+        overflow: hidden;
+        min-height: 300px;
+    }
+    .postDetails {
+        overflow: hidden;
+        border: solid 1px #ededed;
+        border-top: none;
+        padding: 10px;
+    }
+    .previewLinkType .name {
+        font-size: 19px;
+        padding: 5px 10px;
+        margin: 0px;
+    }
+    .defaultName {
+        background-color: #ededed;
+        height: 15px;
+        width: 82%;
+        display: block;
+        margin-top: 10px;
+    }
+    .previewLinkType .description {
+        padding: 5px 10px;
+        margin: 0px;
+    }
+    .defaultDescription {
+        background-color: #eee;
+        height: 4px;
+        width: 100%;
+        display: block;
+        float: left;
+        margin: 2px 0px;
+    }
+    .previewLinkType .caption {
+        float: left;
+        padding: 10px 10px;
+        font-size: 11px;
+        line-height: 11px;
+        text-transform: uppercase;
+        color: #9197a3;
+        font-family: helvetica, arial, sans-serif;
+        margin: 0px;
+    }
+    .defaultCaption {
+        background-color: #ededed;
+        height: 5px;
+        width: 70px;
+        display: block;
+        float: left;
+        margin: 5px 0px;
+    }
+    .previewVideoType {
+        background: #eeeeee;
+        min-height: 300px;
+    }
+.postPreview .image_1,
+.postPreview .image_2,
+.postPreview .image_3,
+.postPreview .image_4
+{
+    background: #eeeeee;
+    border: 1px solid #fff;
+}
+
+.postPreview .pit1 .image_1{
+  
+    overflow: hidden;
+}
+
+.postPreview .pit4 .image_2,
+.postPreview .pit4 .image_3,
+.postPreview .pit4 .image_4{
+    width: 33.3333333333%;
+    float: left;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+.postPreview .pit3 .image_2,
+.postPreview .pit3 .image_3
+{
+    width: 50%;
+    float: left;    
+    height: 250px;
+    overflow: hidden;
+}
+
+.postPreview .pit2 .image_1,
+.postPreview .pit3 .image_1,
+.postPreview .pit4 .image_1,
+.postPreview .pit2 .image_2{
+    height: 250px;
+    overflow: hidden;
+}
+.previewImageType img {
+    width: 100%;
+    min-height: 178px;
+}
+.moreImages {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 180px;
+    background-color: rgba(0, 0, 0, .4);
+    bottom: 0;
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+}
+.previewVideoType {
+    background: #eeeeee;
+    min-height: 300px;
+}
+.previewVideoType video {
+    max-width: 100%;
+    border: 1px solid #eee;
+    width: 100%;
+}
+.loadImg .box_img {
+    width: 140px;
+    height: 148px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    float: left;
+    position: relative;
+}
+.loadImg .box_img img{ width: 140px;height: 148px;}
+.loadImg .box_img i{position: absolute;right: 0;z-index: 2; cursor: pointer;}

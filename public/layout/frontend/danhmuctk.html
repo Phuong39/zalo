@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Danh mục tài khoản</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="global_assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script src="global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script src="global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script src="global_assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script src="global_assets/js/plugins/pickers/daterangepicker.js"></script>
+
+	<script src="assets/js/app.js"></script>
+	<script src="global_assets/js/demo_pages/dashboard.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-expand-md navbar-light">
+
+		<!-- Header with logos -->
+		<div class="navbar-header navbar-dark d-none d-md-flex align-items-md-center">
+			<div class="navbar-brand navbar-brand-md">
+				<a href="index.html" class="d-inline-block">
+					<img src="global_assets/images/logo_light.png" alt="">
+				</a>
+			</div>
+			
+			<div class="navbar-brand navbar-brand-xs">
+				<a href="index.html" class="d-inline-block">
+					<img src="global_assets/images/logo_icon_light.png" alt="">
+				</a>
+			</div>
+		</div>
+		<!-- /header with logos -->
+	
+
+		<!-- Mobile controls -->
+		<div class="d-flex flex-1 d-md-none">
+			<div class="navbar-brand mr-auto">
+				<a href="index.html" class="d-inline-block">
+					<img src="global_assets/images/logo_dark.png" alt="">
+				</a>
+			</div>	
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
+				<i class="icon-tree5"></i>
+			</button>
+
+			<button class="navbar-toggler sidebar-mobile-main-toggle" type="button">
+				<i class="icon-paragraph-justify3"></i>
+			</button>
+		</div>
+		<!-- /mobile controls -->
+
+
+		<!-- Navbar content -->
+		<div class="collapse navbar-collapse" id="navbar-mobile">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-md-block">
+						<i class="icon-paragraph-justify3"></i>
+					</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+						<i class="icon-people"></i>
+						<span class="d-md-none ml-2">Users</span>
+						<span class="badge badge-mark border-pink-400 ml-auto ml-md-0"></span>
+					</a>
+					
+					<div class="dropdown-menu dropdown-content wmin-md-300">
+						<div class="dropdown-content-header">
+							<span class="font-weight-semibold">Users online</span>
+							<a href="#" class="text-default"><i class="icon-search4 font-size-base"></i></a>
+						</div>
+
+						<div class="dropdown-content-body dropdown-scrollable">
+							<ul class="media-list">
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Jordana Ansley</a>
+										<span class="d-block text-muted font-size-sm">Lead web developer</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-success"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Will Brason</a>
+										<span class="d-block text-muted font-size-sm">Marketing manager</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-danger"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Hanna Walden</a>
+										<span class="d-block text-muted font-size-sm">Project manager</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-success"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Dori Laperriere</a>
+										<span class="d-block text-muted font-size-sm">Business developer</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-warning-300"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Vanessa Aurelius</a>
+										<span class="d-block text-muted font-size-sm">UX expert</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-grey-400"></span></div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="dropdown-content-footer bg-light">
+							<a href="#" class="text-grey mr-auto">All users</a>
+							<a href="#" class="text-grey"><i class="icon-gear"></i></a>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+			<span class="navbar-text ml-md-3 mr-md-auto">
+				<span class="badge bg-pink-400 badge-pill">16 orders</span>
+			</span>
+
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+						<i class="icon-bubbles4"></i>
+						<span class="d-md-none ml-2">Messages</span>
+						<span class="badge badge-mark border-pink-400 ml-auto ml-md-0"></span>
+					</a>
+					
+					<div class="dropdown-menu dropdown-menu-right dropdown-content wmin-md-350">
+						<div class="dropdown-content-header">
+							<span class="font-weight-semibold">Messages</span>
+							<a href="#" class="text-default"><i class="icon-compose"></i></a>
+						</div>
+
+						<div class="dropdown-content-body dropdown-scrollable">
+							<ul class="media-list">
+								<li class="media">
+									<div class="mr-3 position-relative">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+
+									<div class="media-body">
+										<div class="media-title">
+											<a href="#">
+												<span class="font-weight-semibold">James Alexander</span>
+												<span class="text-muted float-right font-size-sm">04:58</span>
+											</a>
+										</div>
+
+										<span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3 position-relative">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+
+									<div class="media-body">
+										<div class="media-title">
+											<a href="#">
+												<span class="font-weight-semibold">Margo Baker</span>
+												<span class="text-muted float-right font-size-sm">12:16</span>
+											</a>
+										</div>
+
+										<span class="text-muted">That was something he was unable to do because...</span>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<div class="media-title">
+											<a href="#">
+												<span class="font-weight-semibold">Jeremy Victorino</span>
+												<span class="text-muted float-right font-size-sm">22:48</span>
+											</a>
+										</div>
+
+										<span class="text-muted">But that would be extremely strained and suspicious...</span>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<div class="media-title">
+											<a href="#">
+												<span class="font-weight-semibold">Beatrix Diaz</span>
+												<span class="text-muted float-right font-size-sm">Tue</span>
+											</a>
+										</div>
+
+										<span class="text-muted">What a strenuous career it is that I've chosen...</span>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<div class="media-title">
+											<a href="#">
+												<span class="font-weight-semibold">Richard Vango</span>
+												<span class="text-muted float-right font-size-sm">Mon</span>
+											</a>
+										</div>
+										
+										<span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="dropdown-content-footer bg-light">
+							<a href="#" class="text-grey mr-auto">All messages</a>
+							<div>
+								<a href="#" class="text-grey" data-popup="tooltip" title="Mark all as read"><i class="icon-radio-unchecked"></i></a>
+								<a href="#" class="text-grey ml-2" data-popup="tooltip" title="Settings"><i class="icon-cog3"></i></a>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown dropdown-user">
+					<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+						<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" alt="">
+						<span>Victoria</span>
+					</a>
+
+					<div class="dropdown-menu dropdown-menu-right">
+						<a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+						<a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
+						<a href="#" class="dropdown-item"><i class="icon-comment-discussion"></i> Messages <span class="badge badge-pill bg-indigo-400 ml-auto">58</span></a>
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+						<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- /navbar content -->
+		
+	</div>
+	<!-- /main navbar -->
+
+					
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+		<div class="sidebar sidebar-dark sidebar-main sidebar-expand-md">
+
+			<!-- Sidebar mobile toggler -->
+			<div class="sidebar-mobile-toggler text-center">
+				<a href="#" class="sidebar-mobile-main-toggle">
+					<i class="icon-arrow-left8"></i>
+				</a>
+				Navigation
+				<a href="#" class="sidebar-mobile-expand">
+					<i class="icon-screen-full"></i>
+					<i class="icon-screen-normal"></i>
+				</a>
+			</div>
+			<!-- /sidebar mobile toggler -->
+
+
+			<!-- Sidebar content -->
+			<div class="sidebar-content">
+				
+				<!-- User menu -->
+				<div class="sidebar-user">
+					<div class="card-body">
+						<div class="media">
+							<div class="mr-3">
+								<a href="#"><img src="global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
+							</div>
+
+							<div class="media-body">
+								<div class="media-title font-weight-semibold">Victoria Baker</div>
+								<div class="font-size-xs opacity-50">
+									<i class="icon-pin font-size-sm"></i> &nbsp;Santa Ana, CA
+								</div>
+							</div>
+
+							<div class="ml-3 align-self-center">
+								<a href="#" class="text-white"><i class="icon-cog3"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /user menu -->
+
+				
+				<!-- Main navigation -->
+				<div class="card card-sidebar-mobile">
+					<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+						<!-- Layout -->
+						
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="fa fa-cog"></i><span>Cấu hình</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Content styling">
+								<li class="nav-item"><a href="taikhoanzalo.html" class="nav-link"><i class="fa fa-clipboard  "></i><span>Tài khoản zalo</span></a></li>
+								
+								<li class="nav-item"><a href="danhmuctk.html" class="nav-link"><i class="fa fa-calendar"></i><span>Danh mục tài khoản</span></a></li>
+								
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Quản lý bài viết</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Content styling">
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link"><i class="fa fa-clipboard  "></i><span>Danh sách bài viết</span></a></li>
+								
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link"><i class="fa fa-calendar"></i><span>Danh mục  bài viết</span></a></li>
+								
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Đăng bài</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Content styling">
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link"><i class="fa fa-clipboard  "></i><span>Profile</span></a></li>
+								<!-- <li class="nav-item"><a href="content_page_footer.html" class="nav-link disabled">Lập lịch đăng<span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li> -->
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link"><i class="fa fa-clipboard  "></i><span>OA</span></a></li>
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link"><i class="fa fa-clipboard  "></i><span>Lịch sử đăng</span></a></li>
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="fa fa-comment-o" aria-hidden="true"></i> <span>Live chat</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Content styling">
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link">Chat OA</a></li>
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link">Chat profile</a></li>
+								
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="fa fa-users" aria-hidden="true"></i> <span>Kết bạn</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Content styling">
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link">Cấu hình kết bạn</a></li>
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link">Kết bạn theo danh bạ</a></li>
+								<li class="nav-item"><a href="content_page_header.html" class="nav-link"><i class="fa fa-clipboard  "></i><span>Lịch sử kết bạn</span></a></li>
+								
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fa fa-cube" aria-hidden="true"></i> <span>Sản phẩm</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fa fa-credit-card" aria-hidden="true"></i> <span>Đơn hàng</span></a>
+							
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fa fa-comment-o" aria-hidden="true"></i> <span>Chatbot</span></a>
+							
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span>Chiến dịch</span></a>
+							
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <span>Shop zalo</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Page layouts">
+								<li class="nav-item"><a href="layout_fixed_navbar.html" class="nav-link">Sản phẩm</a></li>
+								<li class="nav-item"><a href="layout_fixed_sidebar_custom.html" class="nav-link">Danh mục</a></li>
+								<li class="nav-item"><a href="layout_fixed_sidebar_native.html" class="nav-link">Thuộc tính</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fa fa-user-plus"></i> <span>Thêm quản lý nhân viên</span></a>
+							
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fa fa-bar-chart"></i> <span>Thống kê</span></a>
+							
+						</li>
+						
+						<!-- /layout -->
+							
+					</ul>
+				</div>
+				<!-- /main navigation -->
+
+			</div>
+			<!-- /sidebar content -->
+			
+		</div>
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Page header -->
+			<div class="page-header">
+				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+			    <div class="d-flex">
+			        <div class="breadcrumb">
+			            <a href="http://app2.phanmemninja.com" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Dashboard</a>
+			            <a href="http://app2.phanmemninja.com/setting" class="breadcrumb-item">Cấu hình</a>
+			            <span class="breadcrumb-item active">Danh mục tài khoản</span>
+			        </div>
+
+			        <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+			    </div>
+
+			    <div class="header-elements d-none">
+			        
+			    </div>
+			</div>
+			</div>
+			<!-- /page header -->
+
+
+			<!-- Content area -->
+			<div class="content">
+        <!-- Form inputs -->
+
+				<div class="clearfix"></div>
+				<!-- /table -->
+				<input type="hidden" name="_token" value="UivGf0w88VQMTRho6HD7pQ5s0xuhTbSDcfTxNzXL"><div class="showLoading"></div>
+				<div class="alertListAccount"></div>   
+				<div class="row">
+				<div class="col-md-12">
+				    <div class="card">
+				        <div class="card-body">
+				        <form method="GET">
+				            <div class="row">
+				                <div class="col-md-6">
+				                    <input type="text" placeholder="Tìm kiếm" name="key" class="form-control" value="">
+				                </div><!--col-md-9-->
+				                <div class="col-md-3">
+				                    <button type="submit" class="btn btn-dark"><i class="icon-search4"></i> Tìm kiếm</button>
+				                </div>
+				            </div>
+				        </form>
+				        </div>
+				    </div>
+				    </div><!--col-md-12-->
+				    <div class="col-md-7">
+				        <div class="card">
+				        <div class="card-header header-elements-inline bg-slate-800">
+				            <h5 class="card-title">Danh mục tài khoản</h5>
+				            <div class="header-elements">
+				                <button class="btn btn-danger" type="button" onclick="deleteCategory(confirm(&quot;Bạn có chắc chắn muốn xóa?&quot;))"><i class="icon-folder-remove icon-1x"></i> Xóa danh mục</button>
+				            </div>
+				        </div>
+				        <div class="table-responsive">
+				                    <table class="table table-striped">
+				                <thead>
+				                    <tr>
+				                        <th>
+				                            <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker border-danger-600 text-danger-800"><span><input type="checkbox" class="form-check-input-styled-danger" onclick="checkAllCheckbox(this)" data-fouc=""></span></div>
+				                                </label>
+				                            </div>
+				                        </th>
+				                        <th>Tên Danh mục</th>
+				                        <th>Ngày tạo</th>
+				                        <th>Thao tác</th>
+				                    </tr>
+				                </thead>
+				                <tbody>
+				                                        <tr>
+				                        <td>
+				                        <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker"><span><input type="checkbox" class="form-check-input-styled" name="id[]" value="15"></span></div>
+				                                </label>
+				                            </div>
+				                        </td>
+				                        <td>hihi</td>
+				                        <td>2020-03-19 13:53:19</td>
+				                        <td>
+				                            <button class="btn btn-warning" type="button" onclick="updateCategory(this)" data-id="15" data-name="hihi"><i class="icon-pencil5  icon-1x"></i> Cập nhật</button>
+				                        </td>
+				                    </tr>
+				                                        <tr>
+				                        <td>
+				                        <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker"><span><input type="checkbox" class="form-check-input-styled" name="id[]" value="14"></span></div>
+				                                </label>
+				                            </div>
+				                        </td>
+				                        <td>Ahii</td>
+				                        <td>2020-03-19 11:30:15</td>
+				                        <td>
+				                            <button class="btn btn-warning" type="button" onclick="updateCategory(this)" data-id="14" data-name="Ahii"><i class="icon-pencil5  icon-1x"></i> Cập nhật</button>
+				                        </td>
+				                    </tr>
+				                                        <tr>
+				                        <td>
+				                        <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker"><span><input type="checkbox" class="form-check-input-styled" name="id[]" value="10"></span></div>
+				                                </label>
+				                            </div>
+				                        </td>
+				                        <td>Bán hàng haha</td>
+				                        <td>2020-03-19 09:13:08</td>
+				                        <td>
+				                            <button class="btn btn-warning" type="button" onclick="updateCategory(this)" data-id="10" data-name="Bán hàng haha"><i class="icon-pencil5  icon-1x"></i> Cập nhật</button>
+				                        </td>
+				                    </tr>
+				                                        <tr>
+				                        <td>
+				                        <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker"><span><input type="checkbox" class="form-check-input-styled" name="id[]" value="6"></span></div>
+				                                </label>
+				                            </div>
+				                        </td>
+				                        <td>Facebook</td>
+				                        <td>2020-03-17 15:15:41</td>
+				                        <td>
+				                            <button class="btn btn-warning" type="button" onclick="updateCategory(this)" data-id="6" data-name="Facebook"><i class="icon-pencil5  icon-1x"></i> Cập nhật</button>
+				                        </td>
+				                    </tr>
+				                                        <tr>
+				                        <td>
+				                        <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker"><span><input type="checkbox" class="form-check-input-styled" name="id[]" value="7"></span></div>
+				                                </label>
+				                            </div>
+				                        </td>
+				                        <td>Googoo</td>
+				                        <td>2020-03-17 15:15:41</td>
+				                        <td>
+				                            <button class="btn btn-warning" type="button" onclick="updateCategory(this)" data-id="7" data-name="Googoo"><i class="icon-pencil5  icon-1x"></i> Cập nhật</button>
+				                        </td>
+				                    </tr>
+				                                        <tr>
+				                        <td>
+				                        <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker"><span><input type="checkbox" class="form-check-input-styled" name="id[]" value="8"></span></div>
+				                                </label>
+				                            </div>
+				                        </td>
+				                        <td>Zaloooo</td>
+				                        <td>2020-03-17 15:15:41</td>
+				                        <td>
+				                            <button class="btn btn-warning" type="button" onclick="updateCategory(this)" data-id="8" data-name="Zaloooo"><i class="icon-pencil5  icon-1x"></i> Cập nhật</button>
+				                        </td>
+				                    </tr>
+				                                        <tr>
+				                        <td>
+				                        <div class="form-check">
+				                                <label class="form-check-label">
+				                                    <div class="uniform-checker"><span><input type="checkbox" class="form-check-input-styled" name="id[]" value="3"></span></div>
+				                                </label>
+				                            </div>
+				                        </td>
+				                        <td>ahihio</td>
+				                        <td>2020-03-17 10:46:40</td>
+				                        <td>
+				                            <button class="btn btn-warning" type="button" onclick="updateCategory(this)" data-id="3" data-name="ahihio"><i class="icon-pencil5  icon-1x"></i> Cập nhật</button>
+				                        </td>
+				                    </tr>
+				                                    </tbody>
+				            </table>
+				            <div class="mt-1 mb-1 ml-3">
+				                
+				            </div>
+				                    </div>
+				    </div>
+				    </div><!--col-md-6-->
+
+				    <div class="col-md-5">
+				        <div class="card">
+				            <div class="card-header header-elements-inline bg-slate-800">
+				                <h5 class="card-title">Thêm mới tài khoản</h5>
+				            </div>
+				            <div class="card-body">
+				                <form action="http://app2.phanmemninja.com/setting/category/store" method="POST">
+				                    <input type="hidden" name="_token" value="UivGf0w88VQMTRho6HD7pQ5s0xuhTbSDcfTxNzXL"> 
+				                    <div class="form-group">
+				                        <label for="exampleInputEmail1">Tên danh mục</label>
+				                        <div class="tokenfield form-control"><input type="text" name="cate_id" class="form-control tokenfield-teal" data-fouc="" tabindex="-1" style="position: absolute; left: -10000px;"><input type="text" tabindex="-1" style="position: absolute; left: -10000px;"><input type="text" class="token-input" autocomplete="off" placeholder="" id="1584678602296112-tokenfield" tabindex="0" style="min-width: 60px; width: 605.078px;"><span style="position:absolute;top:-9999px;left:-9999px;white-space:pre;"></span></div>
+				                        <em>Mỗi danh mục cách nhau bởi 1 dấu phẩy ","</em>
+				                      </div>
+				                    <div class="form-group">
+				                        <button class="btn btn-success" type="submit"><i class="icon-circle-right2 mr-1 icon-1x"></i> Thêm mới</button>
+				                    </div>
+				                </form>
+				            </div>
+				        </div><!--card-->
+				    </div><!--col-md-6-->
+				</div><!--row-->
+
+				<!-- /table -->
+				<!-- Disabled backdrop -->
+				<div id="modal_update" class="modal fade" data-backdrop="false" tabindex="-1">
+				    <div class="modal-dialog">
+				        <div class="modal-content">
+				            <div class="modal-header bg-warning">
+				                <h5 class="modal-title">Cập nhật danh mục</h5>
+				                <button type="button" class="close" data-dismiss="modal">×</button>
+				            </div>
+				            <div class="modalBox mt-1 col-12"></div>
+				            <input type="hidden" name="_token" value="UivGf0w88VQMTRho6HD7pQ5s0xuhTbSDcfTxNzXL">            <div class="modal-body row">
+				                <div class="col-12">
+				                    <div class="alertBox"></div><!--alert-->
+				                </div>
+				                <div class="col-12">
+				                    <input type="hidden" name="cate_id" value="">
+				                     <div class="form-group">
+				                        <label for="exampleInputEmail1">Tên danh mục</label>
+				                        <input type="text" class="form-control" name="cate_name" value="">
+				                        <small class="text-danger alert_username">Vui lòng tên danh mục</small>
+				                      </div>
+				                </div><!--col-md-6-->
+				               
+				                <div class="col-12"><center><button class="text-center btn btn-primary btn_cookie" type="button" onclick="saveFormUpdateCategory()"><i class="icon-circle-right2 mr-1 icon-1x"></i> Cập nhật</button></center></div>
+				            </div>
+				            
+				        </div>
+				    </div>
+				</div>
+
+<!-- /disabled backdrop -->    
+</div>
+			<!-- /content area -->
+
+
+			<!-- Footer -->
+			<div class="navbar navbar-expand-lg navbar-light">
+				<div class="text-center d-lg-none w-100">
+					<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+						<i class="icon-unfold mr-2"></i>
+						Footer
+					</button>
+				</div>
+
+				<div class="navbar-collapse collapse" id="navbar-footer">
+					<span class="navbar-text">
+						&copy; 2015 - 2018. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
+					</span>
+
+					<ul class="navbar-nav ml-lg-auto">
+						<li class="nav-item"><a href="https://kopyov.ticksy.com/" class="navbar-nav-link" target="_blank"><i class="icon-lifebuoy mr-2"></i> Support</a></li>
+						<li class="nav-item"><a href="http://demo.interface.club/limitless/docs/" class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a></li>
+						<li class="nav-item"><a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328?ref=kopyov" class="navbar-nav-link font-weight-semibold"><span class="text-pink-400"><i class="icon-cart2 mr-2"></i> Purchase</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /footer -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>
